@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/btu-classroom" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/btu-final-project" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/btu_app" vcs="Git" />
   </component>
 </project>
