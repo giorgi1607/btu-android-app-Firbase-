@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.btuapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/btulogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/btulogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BTUAPP">
+
+        <activity
+            android:name=".detailedactivityes.detailed_writtenanouncmant_activity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".detailedactivityes.detailed_grades_activity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".detailedactivityes.detailed_anouncmant_activity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".writing_anouncmant_activity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".registeractivty"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:windowSoftInputMode="adjustNothing"
+            android:name=".auth_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/grades"
+        android:icon="@drawable/grades_icon"
+
+        android:id="@+id/grades_fragment"
+        />
+
+
+    <item
+
+        android:id="@+id/message_fragment"
+        android:icon="@drawable/ic_baseline_person_50"
+        android:title="@string/messages"
+
+
+        />
+    <item
+
+        android:icon="@drawable/notification_icon"
+        android:title="@string/anouncmants"
+        android:id="@+id/anouncmant_fragment"
+
+        />
+</menu>

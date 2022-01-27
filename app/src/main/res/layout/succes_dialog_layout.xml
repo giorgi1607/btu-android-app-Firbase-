@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="200dp"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/ic_baseline_check_circle_24" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:paddingLeft="0dp"
+        android:text="თქვენ წარმატებით დარეგისტრირდით"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/dialog_register_btn_succes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#4CAF50"
+        android:text="სისტემაში შესვლა"
+        android:textColor="#000000" />
+</LinearLayout>

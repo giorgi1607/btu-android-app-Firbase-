@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="grades">კურსები</string>
+    <string name="messages">პროფილი</string>
+    <string name="anouncmants">განცხადებები</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="app_name">BTU APP</string>
+    <string name="add">Add</string>
+    <string name="title_wefgeg">Title wefgeg</string>
+    <string name="email">hint</string>
+    <string name="dwaf">ჩემი ცხრილი</string>
+
+
+    <array name="coursesspinner">
+        <item>"Information Technology"</item>
+        <item>"Finance"</item>
+        <item>"Marketing"</item>
+
+    </array>
+
+
+    <array name="anouncmant">
+        <item>"თავისუფალი ბლანკი "</item>
+        <item>"სტუდნეტის სტატუსი აღდგენა "</item>
+        <item>"სტუდნეტის სტატუსი შეჩერება "</item>
+        <item>"სტუდნეტის სტატუსი შეწყვეტა "</item>
+        <item>"პროგრამის ცვლილება "</item>
+        <item>"ანგარის ფაქტურა "</item>
+        <item>"ფორმა 26 "</item>
+        <item>"ნიშნების ფურცელი (ქართულ ენაზე)"</item>
+        <item>"ნიშნების ფურცელი (ინგლისურ ენაზე)"</item>
+
+
+    </array>
+
+
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFCFF"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".writing_anouncmant_activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:padding="10dp"
+                android:text="აირჩიეთ შაბლონი"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/anoucnmant_spinner"
+                    android:layout_width="393dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:backgroundTint="#FFFFFF"
+                    android:entries="@array/anouncmant"
+                    android:minHeight="48dp"
+                    android:spinnerMode="dialog" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/spinner_icon" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/anoucnmant_written_text"
+            android:layout_width="match_parent"
+            android:layout_height="396dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundad_backgound"
+            android:backgroundTint="#F3F0F0"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:text="ბიზნესისა და ტექნოლოგიების უნივერსიტეტის რექტორს, ქ-ნ.ენუქიძეს .." />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/exitbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="გაუქმება"
+            android:textColor="#000000"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/publishbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:text="გამოქვეყნება"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:iconTint="#000000" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/grades_fragment">
+
+    <fragment
+        android:id="@+id/grades_fragment"
+        android:name="com.example.btuapp.MainFragments.grades_fragment"
+
+        tools:layout="@layout/grades_fragment_layout"
+        android:label="@string/grades">
+
+
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/message_fragment"
+        android:name="com.example.btuapp.MainFragments.profile_fragments"
+        android:label="@string/messages"
+        tools:layout="@layout/profile_fragment_layout"
+        />
+    <fragment
+        android:id="@+id/anouncmant_fragment"
+        android:name="com.example.btuapp.MainFragments.anouncmant_fragment"
+        android:label="@string/anouncmants"
+        tools:layout="@layout/anouncmant_fragment_layout"
+        />
+</navigation>
