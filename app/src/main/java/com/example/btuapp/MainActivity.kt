@@ -83,7 +83,7 @@ lateinit var navigation_view:NavigationView
             }
 
             override fun onCancelled(error: DatabaseError) {
-                TODO("Not yet implemented")
+                println("tood")
             }
 
 

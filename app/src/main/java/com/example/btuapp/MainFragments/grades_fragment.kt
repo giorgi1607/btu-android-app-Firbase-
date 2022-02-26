@@ -90,7 +90,7 @@ private var loadingview=loadingfragment()
             }
 
             override fun onCancelled(error: DatabaseError) {
-                TODO("Not yet implemented")
+                println("dwd")
             }
 
 
